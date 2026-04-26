@@ -4,36 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - InstantKhobor</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="https://cloudpix.free.nf/uploads/98210.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
+        :root {
+            --brand-orange: #FF6600;
+        }
         body {
-            background-color: #0f172a;
-            color: #e2e8f0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            font-family: 'Hind Siliguri', sans-serif;
         }
-        .glass-card {
-            background: rgba(30, 41, 59, 0.7);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
+        .orange-gradient-top {
+            background: linear-gradient(135deg, #FF6600 0%, #FF9040 100%);
         }
-        .gradient-text {
-            background: linear-gradient(90deg, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .share-btn {
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            transform: translateY(-3px);
         }
     </style>
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="bg-gray-50">
 
-    <main class="flex-grow container mx-auto px-4 py-12">
-        <div class="max-w-3xl mx-auto glass-card p-8 shadow-2xl">
+    <header class="orange-gradient-top pt-16 pb-32 text-center text-white px-4 rounded-b-[50px] shadow-lg">
+        <img src="https://cloudpix.free.nf/uploads/98210.png" alt="Favicon" class="w-20 h-20 mx-auto bg-white p-2 rounded-full shadow-md mb-4 border-2 border-orange-200">
+        <h1 class="text-4xl font-extrabold mb-2">InstantKhobor</h1>
+        <p class="text-orange-50 font-medium max-w-lg mx-auto opacity-90">সঠিক তথ্য, সঠিক সময়ে — আপনার আস্থার সংবাদ মাধ্যম</p>
+    </header>
+
+    <main class="container mx-auto px-4 -mt-20 mb-12">
+        <div class="bg-white rounded-3xl shadow-xl p-8 md:p-12 max-w-4xl mx-auto border border-gray-100">
             
-            <div class="text-center mb-8">
-                <img src="favicon.ico" alt="InstantKhobor Logo" class="w-20 h-20 mx-auto mb-4 rounded-xl shadow-lg border-2 border-sky-500">
-                <h1 class="text-4xl font-bold gradient-text">InstantKhobor</h1>
+            <section class="space-y-8 text-gray-700">
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                        <span class="w-2 h-8 bg-orange-500 rounded-full mr-3"></span>
+                        আমাদের সম্পর্কে
+                    </h2>
+                    <p class="leading-relaxed text-lg">
+                        <strong>InstantKhobor</strong> বাংলাদেশের একটি প্রতিশ্রুতিশীল ডিজিটাল নিউজ প্ল্যাটফর্ম। আমরা বিশ্বাস করি যে সংবাদ শুধুমাত্র তথ্য নয়, বরং এটি মানুষের সিদ্ধান্ত গ্রহণের অন্যতম মাধ্যম। তাই দেশ-বিদেশের সর্বশেষ সংবাদ, বিনোদন, প্রযুক্তি, এবং খেলাধুলার খবর সবার আগে পৌঁছে দিতে আমরা নিরলসভাবে কাজ করে যাচ্ছি।
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 py-6">
+                    <div class="bg-orange-50 p-6 rounded-2xl border-l-4 border-orange-500">
+                        <h3 class="font-bold text-orange-600 mb-2">আমাদের লক্ষ্য</h3>
+                        <p class="text-sm">নিরপেক্ষ এবং বস্তুনিষ্ঠ সাংবাদিকতার মাধ্যমে সাধারণ মানুষের কাছে প্রকৃত সত্য তুলে ধরা।</p>
+                    </div>
+                    <div class="bg-orange-50 p-6 rounded-2xl border-l-4 border-orange-500">
+                        <h3 class="font-bold text-orange-600 mb-2">কেন আমাদের পড়বেন?</h3>
+                        <p class="text-sm">আমরা সংবাদের গুণমান এবং সত্যতা বজায় রাখতে কোনো আপস করি না।</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                        <span class="w-2 h-8 bg-orange-500 rounded-full mr-3"></span>
+                        টিম InstantKhobor
+                    </h2>
+                    <p>
+                        আমাদের পেছনে কাজ করছে একদল তরুণ ও দক্ষ সংবাদকর্মী যারা দিন-রাত চব্বিশ ঘণ্টা সক্রিয়। আধুনিক প্রযুক্তির সর্বোচ্চ ব্যবহারের মাধ্যমে আমরা সংবাদের পরিবেশনায় নতুনত্ব আনার চেষ্টা করি। 
+                    </p>
+                </div>
+            </section>
+
+            <hr class="my-10 border-gray-100">
+
+            <div class="text-center">
+                <h3 class="text-xl font-bold text-gray-800 mb-6 uppercase tracking-wider">এই পেজটি শেয়ার করুন</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=window.location.href" 
+                       onclick="window.open(this.href + encodeURIComponent(window.location.href), 'facebook-share','width=580,height=296'); return false;"
+                       class="share-btn bg-[#1877F2] text-white px-6 py-3 rounded-full flex items-center gap-2 font-medium">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+
+                    <a href="fb-messenger://share/?link=" 
+                       class="share-btn bg-[#00B2FF] text-white px-6 py-3 rounded-full flex items-center gap-2 font-medium">
+                        <i class="fab fa-facebook-messenger"></i> Messenger
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?text=Check this out: " 
+                       onclick="window.open(this.href + encodeURIComponent(window.location.href)); return false;"
+                       class="share-btn bg-[#25D366] text-white px-6 py-3 rounded-full flex items-center gap-2 font-medium">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+
+                    <a href="https://instagram.com" 
+                       class="share-btn bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white px-6 py-3 rounded-full flex items-center gap-2 font-medium">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center pb-8 text-gray-400 text-sm">
+        <p>&copy; 2026 InstantKhobor | All Rights Reserved.</p>
+    </section>
+
+</body>
+</html>
                 <p class="text-gray-400 mt-2 italic">মুহূর্তের খবর, মুহূর্তে আপনার কাছে</p>
             </div>
 
