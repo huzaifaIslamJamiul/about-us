@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
         :root {
             --brand-orange: #FF6600;
         }
@@ -18,11 +19,12 @@
         .orange-gradient-top {
             background: linear-gradient(135deg, #FF6600 0%, #FF9040 100%);
         }
-        .share-btn {
+        .share-btn, .visit-btn {
             transition: all 0.3s ease;
         }
-        .share-btn:hover {
+        .share-btn:hover, .visit-btn:hover {
             transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -70,6 +72,12 @@
                 </div>
             </section>
 
+            <div class="mt-12 text-center">
+                <a href="https://InstantKhobor.free.nf" target="_blank" class="visit-btn inline-flex items-center gap-3 bg-[#FF6600] text-white px-10 py-4 rounded-2xl font-bold text-xl shadow-lg hover:bg-[#e65c00]">
+                    <i class="fas fa-globe"></i> ভিজিট ওয়েবসাইট
+                </a>
+            </div>
+
             <hr class="my-10 border-gray-100">
 
             <div class="text-center">
@@ -105,7 +113,7 @@
 
     <footer class="text-center pb-8 text-gray-400 text-sm">
         <p>&copy; 2026 InstantKhobor | All Rights Reserved.</p>
-    </section>
+    </footer>
 
 </body>
 </html>
